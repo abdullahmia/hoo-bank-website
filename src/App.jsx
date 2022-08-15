@@ -1,4 +1,4 @@
-import { Billing, Business, CardDeal, Clients, CTA, Footer, Navbar, Stats, Testimonials } from './components'
+import { Billing, Business, CardDeal, Clients, CTA, Footer, Hero, Navbar, Stats, Testimonials } from './components'
 import styles from "./style"
 
 const App = () => {
@@ -12,7 +12,7 @@ const App = () => {
 
       <div className={`bg-primary ${styles.flexStart}`}>
         <div className={`${styles.boxWidth}`}>
-          Hero
+          <Hero />
         </div>
       </div>
 
