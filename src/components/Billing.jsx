@@ -17,8 +17,8 @@ const Billing = () => {
         <p className={`${styles.paragraph} max-w-[470px] mt-5`}>Elit enim sed massa etiam. Mauris eu adipiscing ultrices ametodio aenean neque. Fusce ipsum orci rhoncus aliporttitor integer platea placerat.</p>
 
         <div className='flex flex-row flex-wrap sm:mt-10 mt-6'>
-          <img src={apple} alt="Apple" className='w-[128px] h-[42px] object-contain mr-5 cursor-pointer' />
-          <img src={google} alt="Apple" className='w-[128px] h-[42px] object-contain cursor-pointer' />
+          <img src={apple} alt="Apple" className='w-[128px] h-[42px] object-contain mr-5 cursor-pointer' loading='lazy' />
+          <img src={google} alt="Apple" className='w-[128px] h-[42px] object-contain cursor-pointer' loading='lazy' />
         </div>
 
       </div>

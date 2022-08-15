@@ -6,7 +6,7 @@ const Navbar = () => {
   const [toggole, setToggole] = useState(false);
   return (
     <nav className='w-full flex py-6 between items-center navbar'>
-      <img src={logo} alt="HooBank" className='w-[124px] h-[32px]' />
+      <img src={logo} alt="HooBank" className='w-[124px] h-[32px]' loading='lazy' />
 
       <ul className='list-none sm:flex hidden justify-end items-center flex-1'>
         {
